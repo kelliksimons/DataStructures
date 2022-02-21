@@ -1,5 +1,5 @@
-const arry = [1, 2, 1, 3, 4, 3, 5];
+const arry = [0, 1, 2, 3, 1, 3, 4, 1, 2, 3, 5];
 
-const toFindDuplicates = arry => arry.filter((item, index) => arr.indexOf(item) !== index)
-const duplicateElementa = tofindDuplicates(arry);
+const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index)
+const duplicateElements = toFindDuplicates(arry);
 console.log(duplicateElements);
