@@ -1,3 +1,4 @@
+//Find the duplicates in the array and print them out.
 const arry = [0, 1, 2, 3, 1, 3, 4, 1, 2];
 
 const toFindDuplicates = arry => arry.filter((item, index) => arry.indexOf(item) !== index)
