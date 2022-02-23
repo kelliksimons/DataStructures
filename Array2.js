@@ -3,4 +3,4 @@
 
 const str = "The quick brown fox jumps over the lazy dog";
 str.charAt(0);
-print(str.charAt(0));
+console.log(str.charAt(0));
