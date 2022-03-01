@@ -8,7 +8,7 @@ const toFindDuplicates = str => {
     const dupeArray = [];
     const toFindDuplicates = strArray.filter((item, index) => strArray.indexOf(item) !== index);
     dupeArray.push(strArray[i]);
-    return dupeArray.join(" ");
+    return dupeArray.join(" "); //Returns the duplicates in a string
 }
 
 console.log(toFindDuplicates(str));
